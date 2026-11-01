@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM - Document Object Model</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Fundação de Ensino de Contagem</h1>
+    <p>Curso de Frontend</p>
+    <nav>
+      <ul>
+        <li><a href="#">inicio</a></li>
+        <li><a href="#">cursos</a></li>
+        <li><a href="#">contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="conteudo">
+      <h2>Manipulação do DOM</h2>
+      <p id="paragrafo-principal">Este é um parágrafo que será utilizado nos exercícios.</p>
+      <p class="destaque">Este é um texto com a classe destaque.</p>
+    </section>
+    <section id="caixa">
+      <div class="caixa">
+        <h3>caixa 1</h3>
+        <p>esse eh o conteudo da caixa 1</p>
+      </div>
+      <div class="caixa">
+        <h3>caixa 2</h3>
+        <p>esse eh o conteudo da caixa 2</p>
+      </div>
+      <div class="caixa">
+        <h3>caixa 3</h3>
+        <p>esse eh o conteudo da caixa 3</p>
+      </div>
+    </section>
+    <section id="botoes">
+      <button id="botao-principal">botão principal</button>
+      <button id="botao-secundario">botão secundario</button>
+    </section>
+    <section>
+      <h2>lista de tecnologias</h2>
+      <ul id="lista-de-tecnologias">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>rust</li>
+      </ul>
+    </section>
+    <section>
+      <h2>imagem</h2>
+      <img src="foto.jpg" alt="jao memorias postumas" width="200">
+    </section>
+    <section>
+      <h2>formulario</h2>
+      <form id="formulario">
+      <label for="nome">nome</label>
+      <input type="text" id="nome" placeholder="digite seu nome">
+     
+      <label for="email">email</label>
+      <input type="email" id="email" placeholder="digite seu email">
+
+
+
+
+      <label for="cursos">cursos</label>
+      <select id="cursos">
+      <option value="">selecione</option>    
+      <option value="HTML">HTML</option>
+      <option value="CSS">CSS</option>
+      <option value="JavaScript">JavaScript</option>
+      </select>
+
+
+
+
+      <label for="comentarios">comentarios</label>
+      <textarea id="comentarios"></textarea>
+
+
+      <button type="submit">enviar</button>
+
+
+      </form>
+
+
+
+
+     
+    </section>
+    <section>
+      <h2>Tabela de alunos</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>nome</th>
+            <th>idade</th>
+            <th>curso</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>laura</td>
+            <td>15</td>
+            <td>informatica</td>
+          </tr>
+          <tr>
+            <td>ana</td>
+            <td>15</td>
+            <td>informatica</td>
+          </tr>
+          <tr>
+            <td>raissa</td>
+            <td>15</td>
+            <td>informatica</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+</main>
+
+
+
+
+    <footer>
+      <p>Curso de Frontend - Manipulação do DOM</p>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
